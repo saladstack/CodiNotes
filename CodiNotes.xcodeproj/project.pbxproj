@@ -7,16 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		062E69B12893656400B2386D /* Courier Prime.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 062E69AD2893656400B2386D /* Courier Prime.ttf */; };
+		062E69B22893656400B2386D /* Courier Prime Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 062E69AE2893656400B2386D /* Courier Prime Bold Italic.ttf */; };
+		062E69B32893656400B2386D /* Courier Prime Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 062E69AF2893656400B2386D /* Courier Prime Bold.ttf */; };
+		062E69B42893656400B2386D /* Courier Prime Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 062E69B02893656400B2386D /* Courier Prime Italic.ttf */; };
+		062E69B628936CA600B2386D /* Inter-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 062E69B528936CA600B2386D /* Inter-Medium.otf */; };
 		063CD69B2890F4E80096367B /* testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063CD69A2890F4E80096367B /* testApp.swift */; };
 		063CD69D2890F4E80096367B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063CD69C2890F4E80096367B /* ContentView.swift */; };
 		063CD69F2890F4E90096367B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 063CD69E2890F4E90096367B /* Assets.xcassets */; };
 		063CD6A22890F4E90096367B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 063CD6A12890F4E90096367B /* Preview Assets.xcassets */; };
 		063CD6A42890F4E90096367B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063CD6A32890F4E90096367B /* Persistence.swift */; };
 		063CD6A72890F4E90096367B /* test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 063CD6A52890F4E90096367B /* test.xcdatamodeld */; };
+		063CD6B52891651C0096367B /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063CD6B42891651C0096367B /* NoteView.swift */; };
+		063CD6B82891681E0096367B /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063CD6B62891681E0096367B /* Item+CoreDataClass.swift */; };
+		063CD6B92891681E0096367B /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063CD6B72891681E0096367B /* Item+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		063CD6972890F4E80096367B /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		062E69AB289364D900B2386D /* Courier Prime.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Courier Prime.ttf"; path = "../../../../../Downloads/Courier Prime/Courier Prime.ttf"; sourceTree = "<group>"; };
+		062E69AD2893656400B2386D /* Courier Prime.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Courier Prime.ttf"; path = "../../../../../Downloads/Courier Prime/Courier Prime.ttf"; sourceTree = "<group>"; };
+		062E69AE2893656400B2386D /* Courier Prime Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Courier Prime Bold Italic.ttf"; path = "../../../../../Downloads/Courier Prime/Courier Prime Bold Italic.ttf"; sourceTree = "<group>"; };
+		062E69AF2893656400B2386D /* Courier Prime Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Courier Prime Bold.ttf"; path = "../../../../../Downloads/Courier Prime/Courier Prime Bold.ttf"; sourceTree = "<group>"; };
+		062E69B02893656400B2386D /* Courier Prime Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Courier Prime Italic.ttf"; path = "../../../../../Downloads/Courier Prime/Courier Prime Italic.ttf"; sourceTree = "<group>"; };
+		062E69B528936CA600B2386D /* Inter-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Medium.otf"; path = "../../../../../Downloads/Inter-3.19/Inter Desktop/Inter-Medium.otf"; sourceTree = "<group>"; };
+		063CD6972890F4E80096367B /* CodiNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodiNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		063CD69A2890F4E80096367B /* testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApp.swift; sourceTree = "<group>"; };
 		063CD69C2890F4E80096367B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		063CD69E2890F4E90096367B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,6 +38,9 @@
 		063CD6A32890F4E90096367B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		063CD6A62890F4E90096367B /* test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = test.xcdatamodel; sourceTree = "<group>"; };
 		063CD6A82890F4E90096367B /* test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = test.entitlements; sourceTree = "<group>"; };
+		063CD6B42891651C0096367B /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		063CD6B62891681E0096367B /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		063CD6B72891681E0096367B /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +54,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		062E69AC2893654B00B2386D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				062E69B528936CA600B2386D /* Inter-Medium.otf */,
+				062E69AE2893656400B2386D /* Courier Prime Bold Italic.ttf */,
+				062E69AF2893656400B2386D /* Courier Prime Bold.ttf */,
+				062E69B02893656400B2386D /* Courier Prime Italic.ttf */,
+				062E69AD2893656400B2386D /* Courier Prime.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		063CD68E2890F4E80096367B = {
 			isa = PBXGroup;
 			children = (
@@ -48,7 +77,7 @@
 		063CD6982890F4E80096367B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				063CD6972890F4E80096367B /* test.app */,
+				063CD6972890F4E80096367B /* CodiNotes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,10 +85,14 @@
 		063CD6992890F4E80096367B /* test */ = {
 			isa = PBXGroup;
 			children = (
+				063CD6B62891681E0096367B /* Item+CoreDataClass.swift */,
+				063CD6B72891681E0096367B /* Item+CoreDataProperties.swift */,
 				063CD69A2890F4E80096367B /* testApp.swift */,
 				063CD69C2890F4E80096367B /* ContentView.swift */,
+				063CD6B42891651C0096367B /* NoteView.swift */,
 				063CD69E2890F4E90096367B /* Assets.xcassets */,
 				063CD6A32890F4E90096367B /* Persistence.swift */,
+				062E69AC2893654B00B2386D /* Fonts */,
 				063CD6A82890F4E90096367B /* test.entitlements */,
 				063CD6A52890F4E90096367B /* test.xcdatamodeld */,
 				063CD6A02890F4E90096367B /* Preview Content */,
@@ -70,6 +103,7 @@
 		063CD6A02890F4E90096367B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				062E69AB289364D900B2386D /* Courier Prime.ttf */,
 				063CD6A12890F4E90096367B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -78,9 +112,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		063CD6962890F4E80096367B /* test */ = {
+		063CD6962890F4E80096367B /* CodiNotes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 063CD6AB2890F4E90096367B /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = 063CD6AB2890F4E90096367B /* Build configuration list for PBXNativeTarget "CodiNotes" */;
 			buildPhases = (
 				063CD6932890F4E80096367B /* Sources */,
 				063CD6942890F4E80096367B /* Frameworks */,
@@ -90,9 +124,11 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = CodiNotes;
+			packageProductDependencies = (
+			);
 			productName = test;
-			productReference = 063CD6972890F4E80096367B /* test.app */;
+			productReference = 063CD6972890F4E80096367B /* CodiNotes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 063CD6922890F4E80096367B /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = 063CD6922890F4E80096367B /* Build configuration list for PBXProject "CodiNotes" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,11 +155,13 @@
 				Base,
 			);
 			mainGroup = 063CD68E2890F4E80096367B;
+			packageReferences = (
+			);
 			productRefGroup = 063CD6982890F4E80096367B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				063CD6962890F4E80096367B /* test */,
+				063CD6962890F4E80096367B /* CodiNotes */,
 			);
 		};
 /* End PBXProject section */
@@ -133,7 +171,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				062E69B628936CA600B2386D /* Inter-Medium.otf in Resources */,
+				062E69B32893656400B2386D /* Courier Prime Bold.ttf in Resources */,
+				062E69B12893656400B2386D /* Courier Prime.ttf in Resources */,
 				063CD6A22890F4E90096367B /* Preview Assets.xcassets in Resources */,
+				062E69B22893656400B2386D /* Courier Prime Bold Italic.ttf in Resources */,
+				062E69B42893656400B2386D /* Courier Prime Italic.ttf in Resources */,
 				063CD69F2890F4E90096367B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,9 +189,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				063CD6A42890F4E90096367B /* Persistence.swift in Sources */,
+				063CD6B92891681E0096367B /* Item+CoreDataProperties.swift in Sources */,
+				063CD6B52891651C0096367B /* NoteView.swift in Sources */,
 				063CD6A72890F4E90096367B /* test.xcdatamodeld in Sources */,
 				063CD69D2890F4E80096367B /* ContentView.swift in Sources */,
 				063CD69B2890F4E80096367B /* testApp.swift in Sources */,
+				063CD6B82891681E0096367B /* Item+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = test/test.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -300,6 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = test/test.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -325,7 +373,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		063CD6922890F4E80096367B /* Build configuration list for PBXProject "test" */ = {
+		063CD6922890F4E80096367B /* Build configuration list for PBXProject "CodiNotes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				063CD6A92890F4E90096367B /* Debug */,
@@ -334,7 +382,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		063CD6AB2890F4E90096367B /* Build configuration list for PBXNativeTarget "test" */ = {
+		063CD6AB2890F4E90096367B /* Build configuration list for PBXNativeTarget "CodiNotes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				063CD6AC2890F4E90096367B /* Debug */,
